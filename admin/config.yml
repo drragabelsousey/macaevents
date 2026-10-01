@@ -21,12 +21,52 @@ collections:
           - {label: "وصف البداية", name: "hero_text", widget: "text"}
           - {label: "عنوان من نحن", name: "about_title", widget: "string"}
           - {label: "نص من نحن", name: "about_text", widget: "text"}
+
+          - {label: "الرقم الأول", name: "stat1_number", widget: "string", required: false, default: "+5"}
+          - {label: "وصف الرقم الأول", name: "stat1_label", widget: "string", required: false, default: "سنوات خبرة"}
+          - {label: "الرقم الثاني", name: "stat2_number", widget: "string", required: false, default: "+20"}
+          - {label: "وصف الرقم الثاني", name: "stat2_label", widget: "string", required: false, default: "فريق وشركاء تنفيذ"}
+          - {label: "الرقم الثالث", name: "stat3_number", widget: "string", required: false, default: "90%"}
+          - {label: "وصف الرقم الثالث", name: "stat3_label", widget: "string", required: false, default: "رضا العملاء وفق بيانات الشركة"}
+
           - {label: "عنوان الخدمات", name: "services_title", widget: "string"}
+          - {label: "الخدمة 1 - العنوان", name: "service1_title", widget: "string", required: false, default: "تنظيم المعارض والبازارات"}
+          - {label: "الخدمة 1 - الوصف", name: "service1_text", widget: "text", required: false, default: "اختيار وتوزيع المساحات، تنسيق المشاركين، وتجهيز تجربة الزائر والعارض."}
+          - {label: "الخدمة 2 - العنوان", name: "service2_title", widget: "string", required: false, default: "إدارة الفعاليات"}
+          - {label: "الخدمة 2 - الوصف", name: "service2_text", widget: "text", required: false, default: "خطة تشغيل واضحة، تنسيق الموردين والموقع، ومتابعة التنفيذ حتى نهاية الحدث."}
+          - {label: "الخدمة 3 - العنوان", name: "service3_title", widget: "string", required: false, default: "تجهيز المساحات"}
+          - {label: "الخدمة 3 - الوصف", name: "service3_text", widget: "text", required: false, default: "الخيام، مناطق العرض، الحركة، الإضاءة والعناصر التي تمنح الفعالية حضورها."}
+          - {label: "الخدمة 4 - العنوان", name: "service4_title", widget: "string", required: false, default: "خدمات العارضين"}
+          - {label: "الخدمة 4 - الوصف", name: "service4_text", widget: "text", required: false, default: "دعم العلامات والمشروعات للمشاركة في الفعاليات المناسبة وتجهيز حضورها."}
+          - {label: "الخدمة 5 - العنوان", name: "service5_title", widget: "string", required: false, default: "فعاليات الشركات والمولات"}
+          - {label: "الخدمة 5 - الوصف", name: "service5_text", widget: "text", required: false, default: "تجارب تنشيطية ومناسبات تساعد على زيادة التفاعل والحركة داخل المكان."}
+          - {label: "الخدمة 6 - العنوان", name: "service6_title", widget: "string", required: false, default: "التخطيط والاستشارة"}
+          - {label: "الخدمة 6 - الوصف", name: "service6_text", widget: "text", required: false, default: "تحديد الاحتياجات والميزانية والجدول الزمني قبل بدء التنفيذ."}
+
           - {label: "عنوان أعمالنا", name: "work_title", widget: "string"}
           - {label: "وصف أعمالنا", name: "work_text", widget: "text"}
+          - {label: "صورة أعمال 1", name: "gallery1", widget: "image", required: false}
+          - {label: "صورة أعمال 2", name: "gallery2", widget: "image", required: false}
+          - {label: "صورة أعمال 3", name: "gallery3", widget: "image", required: false}
+          - {label: "صورة أعمال 4", name: "gallery4", widget: "image", required: false}
+          - {label: "صورة أعمال 5", name: "gallery5", widget: "image", required: false}
+
           - {label: "اسم المؤسس", name: "founder_name", widget: "string"}
           - {label: "نبذة المؤسس", name: "founder_text", widget: "text"}
           - {label: "كلمة المؤسس", name: "founder_quote", widget: "text"}
+
+          - {label: "الخطوة 1 - العنوان", name: "step1_title", widget: "string", required: false, default: "نفهم المشروع"}
+          - {label: "الخطوة 1 - الوصف", name: "step1_text", widget: "text", required: false, default: "الهدف، الجمهور، المكان، الميزانية والمتطلبات الأساسية."}
+          - {label: "الخطوة 2 - العنوان", name: "step2_title", widget: "string", required: false, default: "نخطط ونجهز"}
+          - {label: "الخطوة 2 - الوصف", name: "step2_text", widget: "text", required: false, default: "تصور المساحات، التجهيزات، الجدول الزمني وتنسيق الأطراف."}
+          - {label: "الخطوة 3 - العنوان", name: "step3_title", widget: "string", required: false, default: "ننظم وننفذ"}
+          - {label: "الخطوة 3 - الوصف", name: "step3_text", widget: "text", required: false, default: "متابعة التفاصيل وتشغيل الحدث على أرض الواقع بصورة منظمة."}
+
+          - {label: "فيديو 1", name: "video1", widget: "file", required: false}
+          - {label: "فيديو 2", name: "video2", widget: "file", required: false}
+          - {label: "فيديو 3", name: "video3", widget: "file", required: false}
+          - {label: "فيديو 4", name: "video4", widget: "file", required: false}
+
           - {label: "عنوان التواصل", name: "contact_title", widget: "string"}
           - {label: "نص التواصل", name: "contact_text", widget: "text"}
           - {label: "الهاتف الأول", name: "phone1", widget: "string"}
